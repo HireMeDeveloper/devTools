@@ -1,0 +1,9 @@
+name: DevTools
+version: '${project.version}'
+main: me.hiremedev.devtools.DevTools
+api-version: 1.17
+
+commands:
+  dev:
+    description: opens a dev menu for dev tools, or grab dev tools directly
+    usage: /dev [subCommand]
